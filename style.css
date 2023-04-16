@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Lora', serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.about {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(./photo-1488998427799-e3362cec87c3.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#fixed{
+    position: sticky;
+    top: 0;
+}
+
+.top{
+    position: fixed;
+    right: 35px;
+    bottom: 35px;
+    font-size: 40px;
+}
+
+.nav-link {
+    position: relative;
+    color: #fff;
+}
+.hover-item {
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .hover-item:hover {
+    transform: translate(0, -15px);
+  }
+
+  .hover-item1 {
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .hover-item1:hover {
+    transform: translate(0, 15px);
+  }
+
+a{
+    cursor: pointer;
+    color: rgb(252, 151, 0);
+    
+}
+
+a:hover{
+    color: rgb(105, 207, 207);
+    transition: 1s;
+}
+
+.right{
+    text-align: center;
+    color: rgb(252, 151, 0);
+}
+.nav-link::before{
+    content: "";
+    background-color: rgb(209, 255, 6);
+    width: 0px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+
+}
+.nav-link:hover:before{
+    content: "";
+    background-color: rgb(105, 207, 207);
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: 1s;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.im{
+    color: rgb(252, 151, 0);
+    text-shadow: 7px 7px 10px rgb(0, 0, 0);
+}
+
+.para{
+    font-size: 17px;
+}
+
+.get{
+    background-color: rgb(252, 151, 0);
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 20px 5px 10px 10px;
+}
+.get1{
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 7px 25px;
+    border-radius: 20px 5px 10px 10px;
+}
+.get1:hover{
+    background-color: rgb(252, 151, 0);
+    transition: 2s;
+    color: rgb(255, 255, 255);
+}
+
+.get:hover{
+    background-color: azure;
+    transition: 2s;
+    color: black;
+}
+
+.card{
+    box-shadow: 3px 3px 10px black;
+}
+
+.fuy{
+    display: flex;
+}
+.award{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jey{
+    width: 450px;
+}
+
+.ips{
+    text-align: center;
+}
+
